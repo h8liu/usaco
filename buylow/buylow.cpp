@@ -4,6 +4,13 @@ PROG: buylow
 LANG: C++
 */
 
+/*
+It has an easier solution, where each node only counts the
+neariest one for each next price.
+
+My solution converts the DP result into a staged gragh, and counts
+the unique strings in the graph with a more general method...
+*/
 #include <cstdio>
 #include <cassert>
 #include <cstring>
